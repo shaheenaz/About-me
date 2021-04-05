@@ -1,0 +1,14 @@
+header{
+    font-size: larger; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: center;
+    color: rgb(80, 15, 141); background-color: rgb(255, 220, 238);
+}
+body{
+    background-color: rgb(164, 120, 182); 
+}
+h3{
+    background-color: rgb(218, 193, 185); text-align: center; font-size: xx-large; color: rgb(107, 8, 150);
+}
+p{
+    text-align: center; background-color: rgb(253, 114, 195); font-weight: 200; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: x-large;
+}
