@@ -136,13 +136,13 @@ let favFood =["pizza",'spagetti','sushi','kabseh','moulokhia','maglobeh','mansaf
  //guessFood = prompt("fody")
  // let guessFav = prompt ("whats my favoitr food")
 for(let x =0; x<5 ;x++){
-    let guessFav = prompt ("whats my favoitr food")
+    let guessFav = prompt ("whats my favorite food?")
+    guessFav = guessFav.toLowerCase();
      if (guessFav === favFood[0]){ 
      alert("correct")
      score++;
          break;
       } else if (guessFav === favFood[1]){ 
-         
             alert("correct")
             score++;
             break;
