@@ -16,3 +16,12 @@ ive learned a life lesson from coding: "doing a small mistakes can be fatal" :)Â
 mr bashar and the TAs are very helpful and collaborative.
 
 i think i am becoming an adult learner, im not a child anymore :)
+
+### lab3
+well as a lab technician, i learned to to be specific with everything so im now being specific with my coding.
+
+unfortunately, my prior experiences taught me that the last thing i need to do is asking for help, so i learned to always search for the answers and if i didn't find any then i must finally ask, and im doing that with coding, but it may be the reason why im slow. so i must be gaining that and start to ask.
+
+the only thing that my prior experiences taught me is working for a long time isn'tÂ  tiring and im used to it.
+
+I'm being a little bit anxious when someone at the class is asking an advanced question, and im starting to doubt myself if i should've known that, so i wish i can stop doing that.
