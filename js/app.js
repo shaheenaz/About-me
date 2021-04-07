@@ -125,6 +125,8 @@ switch(coffee){
 favDrink();
 
 let favNum = null;
+
+function num (){
  for(let i = 4; i>0; i--){
     let favNum = prompt('can you guess my favorite number?')
     favNum = parseInt(favNum)
@@ -141,6 +143,9 @@ let favNum = null;
         }
     
     }
+}
+num();
+
     //favNum =parseInt(favNum)
  //console.log(typeof favNum)
  //console.log(favNum)
