@@ -4,7 +4,6 @@ alert("welcome to my website  "+ userName)
 userName = userName.toLowerCase();
 console.log(userName)
 
-
 let score = 0;
 
 let myfavMovie = prompt('Do you think I like thriller movies?')
