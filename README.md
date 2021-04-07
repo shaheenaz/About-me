@@ -1,7 +1,12 @@
 # lab-2
 
+i was the driver (Mahmoud Al-dinah)
+and Shaeenaz was the Navigator
+
 ## about me 
 this is a website site to grt to know me and there is informations about me and my background in it.
+
+
 
 ### Author: Shaheenaz zuwayyed
 ### Links and Resources
@@ -25,3 +30,6 @@ unfortunately, my prior experiences taught me that the last thing i need to do i
 the only thing that my prior experiences taught me is working for a long time isn't  tiring and im used to it.
 
 I'm being a little bit anxious when someone at the class is asking an advanced question, and im starting to doubt myself if i should've known that, so i wish i can stop doing that.
+
+
+
