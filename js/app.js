@@ -103,29 +103,30 @@ switch(coffee){
     alert("COFFEE LOVER");
 
 } 
-let favNum = prompt('can you guess my favorite number?')
-favNum = parseInt(favNum)
- for(let i = 0; i<3; i++){
-    if(favNum >=4){
+let favNum = null;
+ for(let i = 4; i>0; i--){
+    let favNum = prompt('can you guess my favorite number?')
+    favNum = parseInt(favNum)
+    if (favNum === 3){
+        alert("correct!")
+        score++;
+        break;
+     } else if(favNum >3){
          favNum = prompt("too high")
-     }else if(favNum <=2){
-         favNum = prompt("too low")
-      } else if (favNum=3){
-           alert("correct!")
-           score++;
-           
-           break;
-    }else {
-        favNum = prompt("try again")
+     } else {
+        favNum = prompt("too low") }
+        if(i === 1){
+            alert("you lost")
+        }
+    
     }
-        
-    }
-
-      favNum =parseInt(favNum)
+    //favNum =parseInt(favNum)
  //console.log(typeof favNum)
  //console.log(favNum)
  alert(" my favorite number is 3")
 let favFood =["pizza",'spagetti','sushi','kabseh','moulokhia','maglobeh','mansaf','koshri','fries','hommous']
+let guessFav = prompt ("whats my favorite food?")
+
 //favFood = favFood.toLowerCase();
 //console.log(favFood)
 //favFood = favFood.toLowerCase();
@@ -135,59 +136,16 @@ let favFood =["pizza",'spagetti','sushi','kabseh','moulokhia','maglobeh','mansaf
  //favFood = favFood.toLowerCase();
  //guessFood = prompt("fody")
  // let guessFav = prompt ("whats my favoitr food")
-for(let x =0; x<5 ;x++){
-    let guessFav = prompt ("whats my favorite food?")
-    guessFav = guessFav.toLowerCase();
-     if (guessFav === favFood[0]){ 
+ let trys =6;
+lable : while(trys >0){
+    trys--;
+    guessFav = prompt ("whats my favorite food?").toLowerCase();
+    for(let i =0;i<favFood.length ; i++)
+     if (guessFav === favFood[i]){ 
      alert("correct")
      score++;
-         break;
-      } else if (guessFav === favFood[1]){ 
-            alert("correct")
-            score++;
-            break;
-        } else if (guessFav === favFood[2]){ 
-         
-            alert("correct")
-            score++;
-            break;
-        } else if (guessFav === favFood[3]){ 
-         
-            alert("correct")
-            score++;
-            break;
-        } else if (guessFav === favFood[4]){ 
-         
-            alert("correct")
-            score++;
-            break;
-        } else if (guessFav === favFood[5]){ 
-         
-            alert("correct")
-            score++;
-            break;
-        } else if (guessFav === favFood[6]){ 
-         
-            alert("correct")
-            score++;
-            break;
-        } else if (guessFav === favFood[7]){ 
-         
-            alert("correct")
-            score++;
-            break;
-        } else if (guessFav === favFood[8]){ 
-         
-            alert("correct")
-            score++;
-            break;
-        } else if (guessFav === favFood[9]){ 
-         
-            alert("correct")
-            score++;
-            break;
-     }else {
-    guessFav = prompt("please try again")
+         break lable
+      //
 } //console.log("my favorite foods are pizza ,spagetti,sushi, kabseh, moulokhia , maglobeh ,mansaf,koshri, fries,hommous")
     
 }
