@@ -55,7 +55,7 @@ switch(myBackground){
 backGround();
 
 let intoReading = prompt('do you think Im into reading?')
-
+function reading (){
 intoReading = intoReading.toLowerCase();
 //console.log(typeof intoReading)
 switch(intoReading){
@@ -74,6 +74,9 @@ switch(intoReading){
     //console.log("im into  reading")
     alert("IM INTO READING SINCE 2013");
 } 
+}
+reading();
+
 let dayNight = prompt('do you think im a night owl?')
 dayNight = dayNight.toLocaleLowerCase();
 console.log(dayNight)
