@@ -3,7 +3,11 @@ let userName = prompt ('what is your name?')
 alert("welcome to my website  "+ userName)
 userName = userName.toLowerCase();
 console.log(userName)
+
+
+
 let myfavMovie = prompt('Do you think I like thriller movies?')
+function favMovie (){
 myfavMovie = myfavMovie.toLowerCase();
 console.log(myfavMovie)
 let score = 0;
@@ -22,9 +26,12 @@ switch(myfavMovie){
     default: 
     //console.log("i like thriller movies")
     alert("THRILLER MOVIES ARE THE BSET");
-
+}
 } 
+favMovie();
+
 let myBackground = prompt('do you think Im a programmar?')
+
 myBackground = myBackground.toLowerCase();
 console.log(myBackground)
 switch(myBackground){
