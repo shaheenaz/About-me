@@ -31,7 +31,7 @@ switch(myfavMovie){
 favMovie();
 
 let myBackground = prompt('do you think Im a programmar?')
-
+function backGround(){
 myBackground = myBackground.toLowerCase();
 console.log(myBackground)
 switch(myBackground){
@@ -51,7 +51,11 @@ switch(myBackground){
     alert("Im A lab technician");
 
 } 
+}
+backGround();
+
 let intoReading = prompt('do you think Im into reading?')
+
 intoReading = intoReading.toLowerCase();
 //console.log(typeof intoReading)
 switch(intoReading){
