@@ -78,6 +78,8 @@ switch(intoReading){
 reading();
 
 let dayNight = prompt('do you think im a night owl?')
+
+ function night(){
 dayNight = dayNight.toLocaleLowerCase();
 console.log(dayNight)
 switch(dayNight){
@@ -94,10 +96,12 @@ switch(dayNight){
     break;
     default: 
     //console.log("im a night owl")
-    alert("professional NIGHT OWL");
-
+}
 } 
+night();
+
 let coffee = prompt('do you think I prefer Coffee over tea')
+function favDrink(){
 coffee = coffee.toLocaleLowerCase();
 console.log(coffee)
 switch(coffee){
@@ -115,8 +119,11 @@ switch(coffee){
     default: 
    // console.log("i love coffee")
     alert("COFFEE LOVER");
-
+}
 } 
+
+favDrink();
+
 let favNum = null;
  for(let i = 4; i>0; i--){
     let favNum = prompt('can you guess my favorite number?')
