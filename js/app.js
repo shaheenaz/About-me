@@ -3,10 +3,14 @@ let userName = prompt ('what is your name?')
 alert("welcome to my website  "+ userName)
 userName = userName.toLowerCase();
 console.log(userName)
+
+let score = 0;
+
 let myfavMovie = prompt('Do you think I like thriller movies?')
+function favMovie (){
 myfavMovie = myfavMovie.toLowerCase();
 console.log(myfavMovie)
-let score = 0;
+
 switch(myfavMovie){
     case'yes':
     case'y':
@@ -19,9 +23,12 @@ switch(myfavMovie){
     break;
     default: 
     alert("THRILLER MOVIES ARE THE BSET");
+}}
 
-} 
+favMovie();
+
 let myBackground = prompt('do you think Im a programmar?')
+function backGround(){
 myBackground = myBackground.toLowerCase();
 console.log(myBackground)
 switch(myBackground){
@@ -38,7 +45,11 @@ switch(myBackground){
     alert("Im A lab technician");
 
 } 
+}
+backGround();
+
 let intoReading = prompt('do you think Im into reading?')
+function reading (){
 intoReading = intoReading.toLowerCase();
 
 switch(intoReading){
@@ -56,7 +67,13 @@ switch(intoReading){
     default:
     alert("IM INTO READING SINCE 2013");
 } 
+}
+reading();
+
 let dayNight = prompt('do you think im a night owl?')
+
+ function night(){
+
 dayNight = dayNight.toLocaleLowerCase();
 console.log(dayNight)
 switch(dayNight){
@@ -73,7 +90,11 @@ switch(dayNight){
     alert("professional NIGHT OWL");
 
 } 
+
+night();
+
 let coffee = prompt('do you think I prefer Coffee over tea')
+function favDrink(){
 coffee = coffee.toLocaleLowerCase();
 console.log(coffee)
 switch(coffee){
@@ -88,9 +109,14 @@ switch(coffee){
     break;
     default: 
     alert("COFFEE LOVER");
+}
+}
 
-} 
+favDrink();
+
 let favNum = null;
+
+function num (){
  for(let i = 4; i>0; i--){
     let favNum = prompt('can you guess my favorite number?')
     favNum = parseInt(favNum)
@@ -105,27 +131,26 @@ let favNum = null;
         if(i === 1){
             alert("you lost")
         }
-    
-    }
+        
+    }}
  alert(" my favorite number is 3")
 let favFood =["pizza",'spagetti','sushi','kabseh','moulokhia','maglobeh','mansaf','koshri','fries','hommous']
 let guessFav = prompt ("whats my favorite food?")
 
  let trys =6;
+
 lable : while(trys >0){
     trys--;
     guessFav = prompt ("whats my favorite food?").toLowerCase();
     for(let i =0;i<favFood.length ; i++)
      if (guessFav === favFood[i]){ 
-     alert("correct")
+     alert("thats right")
      score++;
          break lable
       
      }    
-}
-
-
-alert("my favorite foods are "+favFood)
+}}
+alert("my favorite foods are " )
 alert("your score is "+score+" out of 7")
 
 alert("Thank for visiting my website "+ userName + ", hope you come back another day")
