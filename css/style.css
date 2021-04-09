@@ -1,27 +1,65 @@
+
 header{
-    font-size: larger; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: center;
-    color: rgb(80, 15, 141); background-color: rgb(255, 220, 238);
+    font-size: larger; text-align: center;
+    color: rgb(80, 15, 141); background-color: rgb(250, 196, 224); width: 20%;
 }
 body{
-    background-color: rgb(164, 120, 182); 
+    background-color: rgb(240, 222, 247); font-family: 'Oswald', sans-serif;;
 }
-h3{
-    background-color: rgb(218, 193, 185); text-align: center; font-size: xx-large; color: rgb(107, 8, 150);
+#am{
+    background-color: rgb(218, 193, 185); font-size: x-large; color: rgb(107, 8, 150);width: 8%;
+}
+#goal{
+    background-color: darkseagreen;width: 20%; font-size: x-large;
 }
 p{
-    text-align: center; background-color: rgb(253, 114, 195); font-weight:bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+     background-color: rgb(165, 178, 212); font-weight:bold;
     font-size: large;
 }
-nav ul li{
-    background-color: rgb(209, 125, 125); color: rgb(18, 6, 51); font-size: large; font-family: monospace;
+nav ul li {
+    background-color: rgb(209, 125, 125); color: rgb(18, 6, 51); font-size: large; width:200px;
 
 }
+ul li {
+    position: relative;
+    top:50px;
+}
 nav ol li{
-    background-color: rgb(209, 125, 125); color: rgb(18, 6, 51); font-size: large; font-family: monospace;
+    background-color: rgb(189, 182, 182); color: rgb(18, 6, 51); font-size: large;
 }
 footer{
     text-align: center; color: indigo; background-color: lightcoral;
 }
 img{
     width: 200px; height: 150px; margin-left:40%;
+}
+#HOZER  {
+    background-color: rgb(187, 152, 223);
+
+}
+#kaleo{
+    background-color: cadetblue;
+}
+#some{
+    background-color: cornflowerblue;
+
+}
+#eminem{
+    background-color: rgb(76, 148, 76);
+}
+#tom{
+    background-color: darksalmon;
+}
+#word{
+    background-color: crimson; position: absolute; top: 0; right: 200px;
+}
+.nav ul li{
+    background-color: rgb(229, 188, 196);width: 400px;
+}
+#shay{
+    background-color: rgb(195, 247, 137); position: fixed; right:0; font-size: x-large;color: rgb(135, 110, 247);
+} 
+#change{
+    width: 59%; margin-left: 30px;
+
 }
